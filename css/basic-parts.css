@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 6
+   Coding Challenge 1
+   
+   Author:   Coding Challenge 1   
+   Date:     2021-03-01
+   Filename: code6-1_table.css
+
+*/
+.schedule th .sites table {
+   min-width: min-content;
+   max-width: max-content;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+table {
+   border-collapse: collapse;
+   border: 20px groove gray;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 100%;
+}
+
+.schedule th a {
+   color: inherit;
+   text-decoration: none;
+   box-shadow: inset 0 0 0 0 #eecd72;
+   margin: 0 -.25rem;
+   padding: 0 .25rem;
+   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+   transform: scale(1);
+   display: inline-block;
+   filter:brightness(1);
+   transition: 0.5s;
+ }
+
+ .schedule a:hover {
+   box-shadow: inset 100px 0 0 0 #54b3d6;
+   color: white;
+   transform: scale(1);
+ }
+
+th, td {
+   border: 1px solid black;
+   padding: 10px;
+   text-align: left;
+   vertical-align: top;
+   background-color: antiquewhite;
+}
+
+caption {
+   caption-side: top;
+   text-align: left;
+   font-size: 1.5em;
+}
+
+table col#firstCol {
+   width: 150px;
+}
+
+table col#hourCols {
+   width: 75px;
+}
+
+table thead {
+   background-color: aqua;
+}
+table.caption {
+   text-align: left
+}
+td.spanned {
+   background-color: lightpink;
+}
+th.time {
+   background-color: lightgoldenrodyellow;
+}
+td.playing {
+   background-color: lightseagreen;
+}
+td.sleep {
+   background-color: lightgray;
+}
+td.homework {
+   background-color: lightskyblue;
+}
+td.wakeup {
+   background-color: aliceblue;
+}
+
+.sites th a {
+   color: inherit;
+   text-decoration: none;
+   box-shadow: inset 0 0 0 0 #eecd72;
+   margin: 0 -.25rem;
+   padding: 0 .25rem;
+   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+   transform: scale(1);
+   display: inline-block;
+   filter:brightness(1);
+   transition: 0.5s;
+ }
+
+ .sites th a:hover {
+   box-shadow: inset 100px 0 0 0 #54b3d6;
+   color: white;
+   transform: scale(1);
+ }
+
+ /* For mobile phones: */
+[class*="col-"] {
+   width: 100%;
+ }
+ 
+ @media only screen and (min-width: 600px) {
+   /* For tablets: */
+   .col-s-1 {width: 8.33%;}
+   .col-s-2 {width: 16.66%;}
+   .col-s-3 {width: 25%;}
+   .col-s-4 {width: 33.33%;}
+   .col-s-5 {width: 41.66%;}
+   .col-s-6 {width: 50%;}
+   .col-s-7 {width: 58.33%;}
+   .col-s-8 {width: 66.66%;}
+   .col-s-9 {width: 75%;}
+   .col-s-10 {width: 83.33%;}
+   .col-s-11 {width: 91.66%;}
+   .col-s-12 {width: 100%;}
+ }
+ 
+ @media only screen and (min-width: 768px) {
+   /* For desktop: */
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+ }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickKeys</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/contactus.css">
+    <script src="project.js" defer></script>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class = "video">
+        <video preload="true" autoplay = "autoplay" loop = "loop" volume = "1" muted>
+            <source src="./video/TIGER 80 by KBDFans - Gateron Oil King Typing sounds_Trim.mp4" type="video/mp4">
+            <source src="./video/TIGER 80 by KBDFans - Gateron Oil King Typing sounds_Trim.webm" type="video/webm">
+            <source src="./video/TIGER 80 by KBDFans - Gateron Oil King Typing sounds_Trim.ogv" type="video/ogv">
+        </video>
+        <h1><a href="index.html" target="_self" rel="noopener noreferrer">ContactUs</a></h1>
+        <p><a href="index.html" target="_self" rel="noopener noreferrer">We are about keyboards!</a></p>
+    </div>
+    </div>
+
+    <div class="navbar">
+        <a href="keyboard-sites.html" target="_self" rel="noopener noreferrer">Keyboard Sites</a>
+        <a href="contactus.html" target="_self" rel="noopener noreferrer">Contact Us</a>
+        <a href="about.html" class="right" target="_self" rel="noopener noreferrer">Switch Types</a>
+        <a href="basic-parts.html" target="_self" rel="noopener noreferrer">Basic Parts</a>
+    </div>
+    <div class="container">
+        <form id="myForm" action="/action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
