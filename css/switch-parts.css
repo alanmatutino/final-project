@@ -62,3 +62,7 @@ iframe.center {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+
+.navbar {
+  padding: 20px;
+}
