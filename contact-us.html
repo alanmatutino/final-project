@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClickKeys</title>
     <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/contactus.css">
+    <link rel="stylesheet" href="./css/contact-us.css">
     <script src="project.js" defer></script>
 </head>
 
@@ -24,34 +24,30 @@
         <p><a href="index.html" target="_self" rel="noopener noreferrer">We are about keyboards!</a></p>
     </div>
     </div>
-
     <div class="navbar">
         <a href="keyboard-sites.html" target="_self" rel="noopener noreferrer">Keyboard Sites</a>
-        <a href="contactus.html" target="_self" rel="noopener noreferrer">Contact Us</a>
-        <a href="about.html" class="right" target="_self" rel="noopener noreferrer">Switch Types</a>
+        <a href="contact-us.html" target="_self" rel="noopener noreferrer">Contact Us</a>
+        <a href="switch-parts.html" class="right" target="_self" rel="noopener noreferrer">Switch Types</a>
         <a href="basic-parts.html" target="_self" rel="noopener noreferrer">Basic Parts</a>
+        <a href="about.html" target="_self" rel="noopener noreferrer"> About</a>
     </div>
     <div class="container">
-        <form id="myForm" action="/action_page.php">
-
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="country">Country</label>
-            <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
+        <h1>Contact Form</h1>
+        <form action="https://formsubmit.co/el/ciyeyo" method="POST" >
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <select name="Continent">
+                <option>Africa</option>
+                <option>Anarctica</option>
+                <option>Asia</option>
+                <option>Australia</option>
+                <option>Europe</option>
+                <option>North America</option>
+                <option>South America</option>
             </select>
-
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
-
+            <textarea name="Message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </div>
 </body>
+</html>
